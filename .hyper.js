@@ -156,11 +156,12 @@ module.exports = {
 
   // Written by Shigeo NISHIDA(shigeo.nsd@gmail.com)
   keymaps: {
-    "pane:splitVertical": "ctrl+shift+|",
-    "pane:splitHorizontal": "ctrl+shift+-",
+    "pane:splitRight": "ctrl+shift+|",
+    "pane:splitDown": "ctrl+shift+-",
     "pane:next": "ctrl+shift+n",
     "pane:prev": "ctrl+shift+p",
     "pane:close": "ctrl+shift+x",
+    "editor:paste": "shift+Insert",
     "editor:undo": "ctrl+shift+z",
   },
 };
